@@ -1,0 +1,51 @@
+Markdown cell
+## Model Accuracy Explanation
+
+The K-nearest neighbors (KNN) classifier was trained and evaluated on the provided dataset. The model's accuracy was assessed using various techniques, including cross-validation and a confusion matrix.
+
+### 1. Best K Value Determination
+
+The accuracy of the model was evaluated for different values of K (number of neighbors). A plot was created to visualize the relationship between the K values and the corresponding accuracies. The best K value was determined as [best_k], where the accuracy was the highest.
+
+### 2. Cross-Validation
+
+To ensure the robustness of the model, 5-fold cross-validation was performed. The mean and standard deviation of the cross-validation scores were calculated. This process helps in assessing how well the model generalizes to new, unseen data.
+
+### 3. Confusion Matrix
+
+The final KNN model, trained with the best K value, was evaluated using a confusion matrix. The confusion matrix provides insights into the model's performance, indicating the number of true positives, true negatives, false positives, and false negatives.
+
+### Conclusion
+
+The overall accuracy of the KNN model, considering the best K value and cross-validation results, suggests that the model performs [provide insights on the model's accuracy and reliability].
+
+
+
+K=1: Mean Accuracy = 0.38, Std Deviation = 0.03
+K=2: Mean Accuracy = 0.28, Std Deviation = 0.03
+K=3: Mean Accuracy = 0.28, Std Deviation = 0.03
+K=4: Mean Accuracy = 0.26, Std Deviation = 0.03
+K=5: Mean Accuracy = 0.34, Std Deviation = 0.16
+K=6: Mean Accuracy = 0.33, Std Deviation = 0.16
+K=7: Mean Accuracy = 0.50, Std Deviation = 0.21
+K=8: Mean Accuracy = 0.50, Std Deviation = 0.22
+K=9: Mean Accuracy = 0.67, Std Deviation = 0.04
+K=10: Mean Accuracy = 0.67, Std Deviation = 0.04
+K=11: Mean Accuracy = 0.65, Std Deviation = 0.03
+K=12: Mean Accuracy = 0.65, Std Deviation = 0.03
+K=13: Mean Accuracy = 0.65, Std Deviation = 0.03
+K=14: Mean Accuracy = 0.65, Std Deviation = 0.03
+K=15: Mean Accuracy = 0.65, Std Deviation = 0.03
+K=16: Mean Accuracy = 0.65, Std Deviation = 0.03
+K=17: Mean Accuracy = 0.65, Std Deviation = 0.03
+K=18: Mean Accuracy = 0.65, Std Deviation = 0.03
+K=19: Mean Accuracy = 0.65, Std Deviation = 0.03
+K=20: Mean Accuracy = 0.65, Std Deviation = 0.03
+
+
+
+
+Confusion Matrix:
+[[20  0  0]
+ [ 7  0  1]
+ [ 0  0 56]]
